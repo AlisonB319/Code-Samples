@@ -1,4 +1,4 @@
 # Code-Samples
 A portfolio of my code. 
 
-For the 223 code, I have only included the files that wrote in as to not publish an entire school assignment. 
+For this code I only wrote in hashtable.h and dictionary.h, I have included the other files only for context of the assignment. 
