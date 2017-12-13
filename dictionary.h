@@ -2,7 +2,7 @@
 *  dictionary.h -- A hash-based dictionary for searching definitions
 *   Copyright 2017 - Aaron S. Crandall <acrandal@gmail.com>
 */
-//I wrote this code
+//I wrote this Code
 #ifndef __DICT_H
 #define __DICT_H
 
