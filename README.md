@@ -8,4 +8,4 @@ Code:
 
 260- Code from my third semester coding class, in assembly, Notepad++, QtSpim
 
-223- Code from my fourth semester coding class, the code is based on my teachers code, and the code I wrote is labeled, linux terminal, CLion
+223- Code from my third semester coding class, the code is based on my teachers code, and the code I wrote is labeled, linux terminal, CLion
