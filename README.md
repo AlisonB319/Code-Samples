@@ -1,7 +1,7 @@
 # Code-Samples
 A portfolio of my code. 
 
-Code:
+Code- located in indivdual branches:
 
 121- First semester, in C, Microsoft Visual Studio 2015
 
