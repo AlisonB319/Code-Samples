@@ -4,6 +4,7 @@
 *
 */
 
+//I wrote this code
 #ifndef __HASH_H
 #define __HASH_H
 
