@@ -1,5 +1,5 @@
 /* Programmer: Alison Burgess
-Class: CptS, PA 8
+Class: CptS, PA 7
 Programming Assignment: Poker
 Date: 4/14/17
 Description: In this game, I created a game of poker. Each player has 5 cards at a time, and can change up to 3 every round.
