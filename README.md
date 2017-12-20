@@ -9,4 +9,4 @@ Code- located in indivdual branches:
 
 260- Third semester, in assembly, Notepad++, QtSpim
 
-223- Third semester, my code is embeded in my teachers assignment, and the code I wrote is labeled, linux terminal, CLion
+223- Third semester, in c++, my code is embeded in my teachers assignment, and the code I wrote is labeled, linux terminal, CLion
