@@ -12,3 +12,4 @@ For this code I only wrote in hashtable.h and dictionary.h, I have included the 
 ![9](https://user-images.githubusercontent.com/32000834/34206784-cfd301aa-e53c-11e7-8cb1-657daca56136.jpg)
 ![11](https://user-images.githubusercontent.com/32000834/34206885-1c133ad0-e53d-11e7-9750-d98c2dac9c11.jpg)
 ![12](https://user-images.githubusercontent.com/32000834/34206786-d205c08e-e53c-11e7-9863-64566dd05df7.jpg)
+
