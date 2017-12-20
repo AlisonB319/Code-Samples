@@ -6,7 +6,7 @@ main:
 	feetMsg: .asciiz "Enter the height in feet: "
 	inchMsg: .asciiz "Enter the height in inches: "
 	height: .asciiz "Height is "
-	centimeters: .asciiz " centimeters: "
+	centimeters: .asciiz " centimeters "
 	meters: .asciiz " meters\n"
 	inch2meters: .float 0.0254
 	twele: .float 12.0
