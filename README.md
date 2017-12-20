@@ -1,2 +1,2 @@
 # Code-Samples
-A portfolio of my code. 
+This is a simple program of a feet to meters converter. 
