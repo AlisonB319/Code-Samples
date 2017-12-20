@@ -1,12 +1,2 @@
 # Code-Samples
-A portfolio of my code. 
-
-Code- located in indivdual branches:
-
-121- First semester, in C, Microsoft Visual Studio 2015
-
-122- Second semester, in C++, Microsoft Visual Studio 2015
-
-260- Third semester, in assembly, Notepad++, QtSpim
-
-223- Third semester, my code is embeded in my teachers assignment, and the code I wrote is labeled, linux terminal, CLion
+This is my final project from CS 122, it is was a group project, where I and two other classmates created this game. As the wizard goes through the levels, its stats increase while the enemys stats increase as well. Here is game footage. 
