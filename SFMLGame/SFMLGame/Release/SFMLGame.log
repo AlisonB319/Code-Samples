@@ -1,0 +1,6 @@
+﻿  Attacks.cpp
+c:\users\alison\documents\computer science\cpts 122\sfmlgame\sfmlgame\Attacks.h(3): fatal error C1083: Cannot open include file: 'SFML\Graphics.hpp': No such file or directory
+  main.cpp
+main.cpp(10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  match.cpp
+c:\users\alison\documents\computer science\cpts 122\sfmlgame\sfmlgame\match.h(3): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
