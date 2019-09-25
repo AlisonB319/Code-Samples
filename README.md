@@ -1,18 +1,6 @@
 # Code-Samples
-A portfolio of my code. 
+This was a web-application term assignment, written with 2 teammates, Amariah Del-Mar and Elizabeth Viele. 
 
-Code- located in indivdual branches:
+It is a web application where there are teacher and TA accounts. Teachers can request TA's and TA's can accept the position. The teacher can view their courses and their TA's. While the TA's can view the courses that they are TA-ing for. 
 
-Freshmen Year : 
-
-121- First semester, in C, Microsoft Visual Studio 2015
-
-122- Second semester, in C++, Microsoft Visual Studio 2015
-
-Sophmore Year:
-
-260- Third semester, in assembly, Notepad++, QtSpim
-
-223- Third semester, in c++, my code is embeded in my teachers assignment, and the code I wrote is labeled, linux terminal, CLion
-
-355- Fourth senester, in python, wrote using Visual Studio Code
+It was designed using HTML, CSS, and Javascript. We were not allowed to use any kind of framework. It is supposed to showcase our skills at designing a web-application from front-end to back-end. 
