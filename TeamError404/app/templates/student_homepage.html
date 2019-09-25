@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Grade It For Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="../static/student_homepage_style.css" />
+    <script src="main.js"></script>
+</head>
+    
+    
+<body>
+    <div id="wrapper">
+        <a href="{{ url_for('logout') }}" class="logout ">Logout</a>
+        <header>
+            <div>Homepage</div>
+        </header>
+    
+        <div style="padding-left: 10px; padding-top: 20px; color: whitesmoke">User Profile</div>
+        <div class="user_information block">
+            <div class="name section">
+                Name:
+                <div class="name_input input"> {{ user.fname }} {{ user.lname }}</div>
+            </div>
+            <div class="student_id section">
+                Student ID
+                <div class="student_id_input input" >
+                {{ user.student_id }}
+                </div>
+            </div>
+            <div class="gpa section">
+                GPA:
+                <div class="gpa_input input"> {{ user.gpa }}</div>
+            </div>
+            <div class="major section">
+                Major:
+                <div class="major_input input">{{ user.major }}</div>
+            </div>
+            <div class="expected_grad_date section">
+                Expected Graduation Date
+                <div class="expected_grad_date_input input"> {{ user.grad_date }}</div>
+            </div>
+            <div class="edit-profile">
+                <a href="{{ url_for('edit_student') }}" class="edit-profile-button">edit profile</a>
+            </div>
+        </div>
+        <div>
+            <div class="current_courses block">
+                <div style="position: absolute; top: -25px; color: whitesmoke; left: 5px"> Current Courses</div>
+                <div class="add-student-course">
+                    <a href="create_TA_application.html" class="add-student-course-button button"> <div> + </div> </a>
+                </div>
+                <div class="remove-student-course">
+                    <a class="remove-student-course-button button">
+                        <div>-</div>
+                    </a>
+                </div>
+                <div class="course_container">
+                    <div class="course">
+                        Name:
+                        <div class="course_title"> hello</div>
+                        
+                        Status: 
+                        <div class="course_status"> world</div>
+                        Professor:
+<!--                        <div class="professor">S. Arslan Ay</div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

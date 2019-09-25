@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #3b4652;
+    
+}
+
+#course-h {
+    background-color: #981E32;
+    color: whitesmoke;
+    width: 600px;    
+    display: inline-block;
+    text-align: center;
+}
+.input-box {
+    background-color: whitesmoke;
+    display: inline-block;
+    padding-bottom: 50px;
+    width: 600px;
+    text-align: left;
+}
+
+label {
+    color: black;
+}
+
+.add-course {
+    background-color: #981E32;
+    padding: 2px 6px 2px 6px;
+    width: 100px;
+    position: absolute;
+    right: 5px;
+    border-bottom: solid black 1px;
+    border-right: solid black 1px;
+
+}
+.add-course-button {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.add-course-button:hover, add-course-button:focus {
+    color: grey;
+    text-decoration: none;
+}
+#class-description {
+    width: 300px;
+    line-height: 28px;
+    display: inline-block;
+}
+
+.description {
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.department {
+    padding-top: 15px;
+}
+.courseNumber {
+    position: absolute;
+    text-align: center;
+    left: 200px;
+    top: 10px;
+    width: 300px;
+    
+}
+

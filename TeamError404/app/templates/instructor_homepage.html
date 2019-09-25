@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Grade It For Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="../static/instructor_homepage_style.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="wrapper">        
+        <a href="{{ url_for('logout') }} " style="float:right">Logout</a>
+
+        <header>
+            <div>Homepage</div>
+        </header>
+    
+        <div style="padding-left: 10px; padding-top: 20px; color: white;">User Profile</div>
+        <div class="user_information block">
+            <div class="name section">
+                Name:
+                <div class="name_input input"> {{ user.fname }} {{ user.lname }}</div>
+            </div>
+            <div class="facID section">
+                Faculity ID:
+                <div class="fac_input input"> {{ user.faculty_id }}</div>
+            </div>
+            <div class="phone section">
+                Phone:
+                <div class="phone_input input"> {{ user.phone }}</div>
+            </div>
+            <div class="office section">
+                Office:
+                <div class="office_input input"> {{ user.office }}</div>
+            </div>
+            <div class="edit-profile">
+                <a href="{{ url_for('edit_instructor') }}" class="edit-profile-button">edit profile</a>
+            </div>
+        </div>
+        
+        <div>
+            <div class="current_courses block">
+                <div style="padding-left: 10px; top: -25px; color: white; position: absolute;">Courses</div>
+                <div class="add-student-course">
+                    <a href="{{ url_for('create_course') }}" class="add-student-course-button button"> <div style="bottom: -20px;"> + </div> </a>
+                </div>
+                <div class="remove-student-course">
+                    <button class="remove-student-course-button button">
+                        <div >-</div>
+                    </button>
+                </div>
+                <div class="course_container">
+                    
+                    <div class="course">
+                        Name:
+                        <div class="course_title"> CptS 322</div>
+                        <div class="ta">
+                            <li>Elizabeth Viele</li>
+                        </div>
+                    </div>
+                    <div class="course">
+                        Name:
+                        <div class="course_title"> CptS 122</div>
+                        <div class="ta">
+                            <li>Alison Burgess</li>
+                            <li>Amariah Del Mar</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p id="applicants-h">Applicants</p>
+            <div class="applicants"> 
+                <div class="course_container">
+                    <div class="course">
+                        Name: CptS 122
+                        <div>
+                        TAs:
+                        </div>
+                        <div class="ta">
+                            <li>Alison Burgess</li>
+                            <li>Amariah Del Mar</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

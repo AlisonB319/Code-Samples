@@ -1,0 +1,159 @@
+body {
+    background-color: #3b4652;
+    opacity: .95;
+}
+header {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+    background-color: #981E32;
+    border-bottom: whitesmoke solid 4px;
+    color: white;
+}
+ul.ta_classes_input {
+    display: block;
+    list-style-type: none;
+}
+.user_information {
+    border: black solid  2px;
+    width: 450px;
+    height: 400px;
+    float: left;
+}
+
+.name {
+    float: left;
+}
+
+.input {
+    border: solid black 1px;
+    width: 150px;
+    background-color: white;
+}
+
+.name_input {
+    width: 150px;
+}
+
+.section {
+    width: 150px;
+    padding: 10px
+}
+
+.current_courses {
+    border: black 2px solid;
+    float: right;
+    width: 400px;
+    height: 400px;
+    display: block;
+    position: relative;
+    background-color: darkgrey;
+}
+
+.course {
+    border: 1px black solid;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: white;
+    overflow: scroll;
+}
+
+.course_container {
+    padding: 15px;
+}
+
+.course_title {
+    width: 75%;
+    float: right;
+}
+
+.course_status {
+    width: 75%;
+    float: right;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+.ta {
+    width: 75%;
+    float: left;
+
+}
+
+.block {
+    background-color: whitesmoke
+}
+
+
+.minor_input {
+    width: auto;
+}
+
+.add-student-course {
+    display: block;
+    float: left;
+}
+
+
+
+.button {
+    right: 400px;
+    border-radius: 50%;
+    border: none;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    position: absolute;
+    height: 50px;
+    background-color: #981E32;
+
+}
+
+.remove-student-course-button {
+    top: 90px;
+}
+
+.applicants {
+    border: black 2px solid;
+    float: right;
+    width: 400px;
+    height: 400px;
+    display: block;
+    position: relative;
+    background-color: whitesmoke;
+}
+
+#applicants-h {
+    color: white;
+    position: relative;
+    margin-left: 55%;
+    float: right;
+    width: 40%;
+    margin-top: 50px;
+    bottom: -15px;
+}
+.edit-profile {
+    position: absolute;
+    display: block;
+    bottom: 45px;
+    background-color: #981E32;
+    padding: 2px 6px 2px 6px;
+    width: 100px;
+    text-align: center;
+    border-bottom: black solid 1px;
+    border-right: black solid 1px;
+}
+
+.edit-profile-button {
+    text-decoration: none;
+    color: whitesmoke;
+    width: 100px;
+}

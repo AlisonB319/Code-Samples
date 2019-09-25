@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Create a Student Account</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../static/create_account_style.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="HomepageTitle">
+        <h1> Create A Student Account </h1>
+    </div>
+    <div class="wrap">
+        <h3> Please fill out the information below </h3>
+        <div class="entry">
+            <form action="" method="POST">
+                {{ form.hidden_tag() }}
+
+                <div class="StudentID inputbox">
+                    {{ form.student_id.label }} <br>
+                    {{ form.student_id(size=32) }}
+                </div>
+                <div class="firstName inputbox">
+                    {{ form.fname.label }} <br>
+                    {{ form.fname(size=32) }}
+                </div>
+                <div class="lastName inputbox">
+                    {{ form.lname.label }} <br>
+                    {{ form.lname(size=32) }}
+                </div>
+                <div class="WSUemail inputbox">
+                    {{ form.email.label }} <br>
+                    {{ form.email(size=32) }}
+                </div>
+                <div class="Password inputbox">
+                    {{ form.password.label }} <br>
+                    {{ form.password(size=32) }}
+                </div>
+                <div class="Major inputbox">
+                    <!-- <select name="Major">
+                        <option value="cpt_s">CPT_S</option>
+                        <option value="e_e">E_E</option>
+                        <option value="cpt_e">CPT_E</option>
+                    </select> -->
+                    {{ form.major.label }} <br>
+                    {{ form.major(size=32) }}                </div>
+                <div class="GPA inputbox">
+                    {{ form.gpa.label }} <br>
+                    {{ form.gpa(size=32) }}
+                </div>
+                <div class="GraduationDate inputbox">
+                    <!-- <label for="Gradu"><b>Graduation Date</b></label>
+                    <select name="grad_season">
+                        <option value="fall">Fall</option>
+                        <option value="spring">Spring</option>
+                        <option value="summer">Summer</option>
+                    </select>
+                        <select name="grad_date_season">
+                            <option value="2018">2018</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                        </select> -->
+                        {{ form.grad_date.label }} <br>
+                        {{ form.grad_date(size=32) }}
+                </div>
+                {{ form.submit() }}
+            </form>
+            <!-- <a href="login.html" class = "button stu">Create Account</a> -->
+        </div>
+    </div>
+</body>
+
+</html>

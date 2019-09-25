@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Grade It For Me</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+        <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+        <link rel="stylesheet" type="text/css" media="screen" href="../static/instructor_add_course_style.css" />
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="wrap text-center">
+            <div style="float: center; text-align:center;">
+            <h1 id="course-h">Add a Course</h1>
+            </div>
+            <div class="input-box col-sm-8">
+                <form action="" method='POST'>
+                {{ form.hidden_tag() }}
+                <div class="department col-12 labelheight">
+                    <!--
+                    <select name="Department">
+                        <option value="cpt_s">CPT_S</option>
+                        <option value="e_e">E_E</option>
+                        <option value="cpt_e">CPT_E</option>
+                    </select>
+                    -->
+                    {{ form.title.label }}<br>
+                    {{ form.title(size=32) }}<br>
+                </div>
+                <div class="courseNumber col-12 labelheight">
+                    {{ form.course_name.label }}<br>
+                    {{ form.course_name(size=32) }}<br>                 
+                </div>
+                <div class="description col-12">
+                    {{ form.description.label }}<br>
+                    {{ form.description(size=32) }}<br>                 
+                </div>
+                {{ form.submit() }}
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
