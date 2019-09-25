@@ -1,17 +1,5 @@
 # Code-Samples
-A portfolio of my code. 
+This is a homework assignment from Computer Science 355, Programming Language Design.
 
-Code- located in indivdual branches:
-
-Freshmen Year : 
-
-121- First semester, in C, Microsoft Visual Studio 2015
-
-122- Second semester, in C++, Microsoft Visual Studio 2015
-
-Sophmore Year:
-
-260- Third semester, in assembly, Notepad++, QtSpim
-
-223- Third semester, in c++, my code is embeded in my teachers assignment, and the code I wrote is labeled, linux terminal, CLion
+This specific homework features numerous tasks designed to be solved in python. 
 
