@@ -1,7 +1,7 @@
 # Code-Samples
 A portfolio of my code. 
-
-Code- located in indivdual branches:
+**
+Code- located in indivdual branches:**
 
 ***Freshmen Year :*** 
 
